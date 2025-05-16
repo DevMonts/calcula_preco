@@ -119,6 +119,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'Preço de Custo de Produção',
                   border: OutlineInputBorder(),
+                  hintText: 'R\$300,00',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
@@ -130,6 +132,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'Frete',
                   border: OutlineInputBorder(),
+                  hintText: 'R\$70,00',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
@@ -141,6 +145,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'IPI (%)',
                   border: OutlineInputBorder(),
+                  hintText: '14%',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
@@ -152,6 +158,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'Diferença Tributária de ICMS (%)',
                   border: OutlineInputBorder(),
+                  hintText: '9%',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
@@ -163,6 +171,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'Custo Operacional',
                   border: OutlineInputBorder(),
+                  hintText: 'R\$90,00',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
@@ -208,6 +218,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'Percentual de Lucro (%)',
                   border: OutlineInputBorder(),
+                  hintText: '40%',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
@@ -253,6 +265,8 @@ class _makerState extends State<maker> {
                 decoration: InputDecoration(
                   labelText: 'Imposto sobre Venda (%)',
                   border: OutlineInputBorder(),
+                  hintText: '1%',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
                 keyboardType: TextInputType.number,
               ),
