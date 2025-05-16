@@ -122,7 +122,7 @@ class _makerState extends State<maker> {
                   hintText: 'R\$300,00',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: transport_controller,
@@ -135,7 +135,7 @@ class _makerState extends State<maker> {
                   hintText: 'R\$70,00',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: IPIcontroller,
@@ -148,7 +148,7 @@ class _makerState extends State<maker> {
                   hintText: '14%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: ICMScontroller,
@@ -161,7 +161,7 @@ class _makerState extends State<maker> {
                   hintText: '9%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: operational_cost_controller,
@@ -174,7 +174,7 @@ class _makerState extends State<maker> {
                   hintText: 'R\$90,00',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               Row(
                 children: [
@@ -221,7 +221,7 @@ class _makerState extends State<maker> {
                   hintText: '40%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               Row(
                 children: [
@@ -268,7 +268,7 @@ class _makerState extends State<maker> {
                   hintText: '1%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               Row(
                 children: [

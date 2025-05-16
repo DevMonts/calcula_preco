@@ -89,7 +89,7 @@ class _gainState extends State<gain> {
                 hintText: 'R\$139,99',
                 hintStyle: TextStyle(color: Colors.grey),
               ),
-              keyboardType: TextInputType.number,
+              keyboardType: TextInputType.numberWithOptions(decimal: true),
             ),
             TextField(
               controller: buy_price_controller,
@@ -102,7 +102,7 @@ class _gainState extends State<gain> {
                 hintText: 'R\$39,99',
                 hintStyle: TextStyle(color: Colors.grey),
               ),
-              keyboardType: TextInputType.number,
+              keyboardType: TextInputType.numberWithOptions(decimal: true),
             ),
             Row(
               children: [

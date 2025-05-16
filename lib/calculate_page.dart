@@ -134,7 +134,7 @@ class _calculateState extends State<calculate> {
                   hintText: 'R\$99,99',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: desired_gain_controller,
@@ -147,7 +147,7 @@ class _calculateState extends State<calculate> {
                   hintText: '40%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: variable_controller,
@@ -160,7 +160,7 @@ class _calculateState extends State<calculate> {
                   hintText: 'R\$29,99',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: ICMScontroller,
@@ -173,7 +173,7 @@ class _calculateState extends State<calculate> {
                   hintText: '9%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               TextField(
                 controller: tax_controller,
@@ -186,7 +186,7 @@ class _calculateState extends State<calculate> {
                   hintText: '1%',
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               Row(
                 children: [

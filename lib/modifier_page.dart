@@ -96,7 +96,7 @@ class _modifierState extends State<modifier> {
                     hintText: 'R\$99,99',
                     hintStyle: TextStyle(color: Colors.grey),
                   ),
-                  keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.numberWithOptions(decimal: true),
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -140,7 +140,7 @@ class _modifierState extends State<modifier> {
                     hintText: 'R\$40,00',
                     hintStyle: TextStyle(color: Colors.grey),
                   ),
-                  keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.numberWithOptions(decimal: true),
                 ),
                 Container(
                   decoration: BoxDecoration(
